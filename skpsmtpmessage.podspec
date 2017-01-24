@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'SQskpsmtpmessage'
+  spec.name         = 'skpsmtpmessage'
   spec.version      = '1.0.0'
   spec.license      = { :type => 'Public Domain' }
   spec.homepage     = 'http://www.hikvision.com/'
@@ -10,5 +10,5 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '8.0'
   spec.ios.frameworks = 'CFNetwork'
-  spec.source = "SMTPLibrary/*.{h,m}"
+  spec.source_files = "SMTPLibrary/*.{h,m}"
 end
